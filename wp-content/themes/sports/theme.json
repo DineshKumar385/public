@@ -45,4 +45,113 @@
 				{
 					"name": "System (Roboto, Segoe UI, Ubuntu)",
 					"slug": "system",
-					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Ox
+					"fontFamily": "-apple-system,BlinkMacSystemFont,\"Segoe UI\",Roboto,Oxygen-Sans,Ubuntu,Cantarell,\"Helvetica Neue\",sans-serif"
+				}
+			]
+		}
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--system)"
+		},
+		"color": {
+			"background": "var(--wp--preset--color--base)",
+			"text": "var(--wp--preset--color--contrast)"
+		},
+	"blocks": {
+		"core/paragraph": {
+		"color": {
+			"text": "var(--wp--preset--color--success)"
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--georgia)"
+		}
+	},
+	"core/heading": {
+		"color": {
+			"text": "var(--wp--preset--color--primary)"
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--georgia)",
+			"fontWeight": "700"
+		}
+	},
+
+	"core/list": {
+		"color": {
+			"text": "var(--wp--preset--color--foreground)"
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--georgia)"
+		}
+	},
+
+	"core/quote": {
+		"color": {
+			"text": "var(--wp--preset--color--primary)",
+			"background": "var(--wp--preset--color--secondary)"
+		},
+		"typography": {
+			"fontStyle": "italic",
+			"fontFamily": "var(--wp--preset--font-family--georgia)"
+		}
+	},
+
+	"core/code": {
+		"color": {
+			"text": "var(--wp--preset--color--foreground)",
+			"background": "#f4f4f4"
+		},
+		"typography": {
+			"fontFamily": "monospace"
+		}
+	},
+
+	"core/details": {
+		"color": {
+			"text": "var(--wp--preset--color--foreground)"
+		}
+	},
+	"core/math": {
+		"color": {
+			"text": "var(--wp--preset--color--primary)"
+		}
+	},
+	"core/preformatted": {
+		"color": {
+			"text": "var(--wp--preset--color--foreground)",
+			"background": "#eeeeee"
+		},
+		"typography": {
+			"fontFamily": "monospace"
+		}
+	},
+	"core/pullquote": {
+		"color": {
+			"text": "var(--wp--preset--color--primary)",
+			"background": "var(--wp--preset--color--secondary)"
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--georgia)",
+			"fontWeight": "600"
+		}
+	},
+	"core/table": {
+		"color": {
+			"text": "var(--wp--preset--color--foreground)"
+		}
+	},
+	"core/verse": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--georgia)",
+			"fontStyle": "italic"
+		}
+	},
+	"core/classic": {
+		"color": {
+			"text": "var(--wp--preset--color--foreground)"
+		}
+	}
+}
+	}
+}
