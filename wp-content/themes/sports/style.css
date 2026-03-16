@@ -12,6 +12,181 @@ Version: 1.0.0
 
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
-Generated on fullsiteediting.com. No code version.
 */
+
+
+
+body{
+    background:#f8fafc;
+    color:#91b2df;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+
+
+a{
+    color:#2563eb;
+    text-decoration:none;
+}
+
+a:hover{
+    color:#1d4ed8;
+}
+
+
+
+header{
+    background:white;
+    padding:20px 80px;
+    border-bottom:1px solid #e5e7eb;
+}
+
+
+nav a{
+    margin-left:25px;
+    font-size:16px;
+    font-weight:500;
+    color:#374151;
+}
+
+nav a:hover{
+    color:#2563eb;
+}
+
+
+
+button,
+input[type="submit"],
+.button{
+    background:#2563eb;
+    color:whitesmoke;
+    padding:12px 22px;
+    border-radius:6px;
+    border:none;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#313e61;
+}
+
+
+
+.woocommerce ul.products{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+    gap:30px;
+    margin-top:40px;
+}
+
+.woocommerce ul.products li.product{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+    transition:0.3s;
+}
+
+.woocommerce ul.products li.product:hover{
+    transform:translateY(-5px);
+    box-shadow:0 10px 20px rgba(0,0,0,0.12);
+}
+
+.woocommerce ul.products li.product img{
+    border-radius:6px;
+}
+
+.woocommerce ul.products li.product .price{
+    color:#2563eb;
+    font-weight:600;
+}
+
+
+
+.woocommerce-cart table.shop_table{
+    background:white;
+    border-radius:10px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
+}
+
+.cart_totals{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+}
+
+
+
+.woocommerce-account .woocommerce{
+    display:flex;
+    gap:40px;
+}
+
+.woocommerce-MyAccount-navigation{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    width:250px;
+}
+
+.woocommerce-MyAccount-navigation a{
+    display:block;
+    padding:10px;
+    background:#f1f5f9;
+    border-radius:6px;
+    margin-bottom:10px;
+}
+
+.woocommerce-MyAccount-navigation .is-active a{
+    background:#2563eb;
+    color:white;
+}
+
+.woocommerce-MyAccount-content{
+    background:white;
+    padding:30px;
+    border-radius:10px;
+}
+
+
+
+.wp-block-post{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.08);
+    margin-bottom:40px;
+}
+
+
+
+input,
+textarea{
+    width:100%;
+    padding:12px;
+    border-radius:6px;
+    border:1px solid #e5e7eb;
+}
+
+
+
+footer{
+    background:#111827;
+    color:white;
+    padding:60px;
+}
+
+
+
+@media (max-width:768px){
+
+.woocommerce ul.products{
+grid-template-columns:repeat(2,1fr);
+}
+
+.woocommerce-account .woocommerce{
+flex-direction:column;
+}
+
+}
