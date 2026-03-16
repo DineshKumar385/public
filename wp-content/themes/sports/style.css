@@ -242,3 +242,8 @@ letter-spacing:0.5px;
 .woocommerce ul.products li.product{
 border:1px solid #374151;
 }
+
+.woocommerce-products-header h1{
+font-size:34px;
+font-weight:600;
+}
