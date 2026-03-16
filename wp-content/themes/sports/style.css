@@ -196,3 +196,8 @@ font-size:18px;
 font-weight:600;
 letter-spacing:0.3px;
 }
+
+.woocommerce ul.products li.product .price{
+color:#60a5fa;
+font-weight:600;
+}
