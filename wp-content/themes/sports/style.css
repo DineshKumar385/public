@@ -238,3 +238,7 @@ margin:auto;
 h1,h2,h3{
 letter-spacing:0.5px;
 }
+
+.woocommerce ul.products li.product{
+border:1px solid #374151;
+}
