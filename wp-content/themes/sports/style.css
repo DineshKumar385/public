@@ -211,3 +211,7 @@ footer{
 padding:60px 0;
 text-align:center;
 }
+
+.wp-block-post{
+padding:30px;
+}
