@@ -59,7 +59,7 @@ button,
 input[type="submit"],
 .button{
     background:#2563eb;
-    color:whitesmoke;
+    color:#f8fafc;
     padding:12px 22px;
     border-radius:6px;
     border:none;
@@ -67,7 +67,7 @@ input[type="submit"],
 }
 
 button:hover{
-    background:#313e61;
+    background:#1c2c57;
 }
 
 
@@ -189,4 +189,10 @@ grid-template-columns:repeat(2,1fr);
 flex-direction:column;
 }
 
+}
+
+.woocommerce ul.products li.product h2{
+font-size:18px;
+font-weight:600;
+letter-spacing:0.3px;
 }
