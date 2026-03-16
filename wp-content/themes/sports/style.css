@@ -229,3 +229,8 @@ button:hover,
 transform:scale(1.05);
 transition:0.2s;
 }
+
+.wp-site-blocks{
+max-width:1200px;
+margin:auto;
+}
