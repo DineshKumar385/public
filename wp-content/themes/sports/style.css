@@ -215,3 +215,7 @@ text-align:center;
 .wp-block-post{
 padding:30px;
 }
+
+input, textarea{
+border-radius:8px;
+}
