@@ -252,3 +252,84 @@ font-weight:600;
 font-size:26px;
 font-weight:600;
 }
+
+
+/* PRODUCT GRID CONTAINER */
+.wc-block-product-template {
+  gap: 30px;
+}
+
+/* PRODUCT CARD */
+.wc-block-product {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 18px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.06);
+  transition: all 0.3s ease;
+  text-align: center;
+}
+
+/* HOVER EFFECT */
+.wc-block-product:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+}
+
+/* PRODUCT IMAGE */
+.wc-block-components-product-image img {
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+}
+
+.wc-block-product:hover img {
+  transform: scale(1.05);
+}
+
+/* PRODUCT TITLE */
+.wc-block-product h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin: 12px 0 6px;
+  color: #111;
+}
+
+/* PRODUCT PRICE */
+.wc-block-components-product-price {
+  margin-bottom: 12px;
+}
+
+.wc-block-components-product-price ins {
+  color: #e63946;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.wc-block-components-product-price del {
+  color: #999;
+  margin-right: 6px;
+}
+
+/* ADD TO CART BUTTON */
+.wp-block-button__link {
+  background: #111;
+  color: #fff;
+  border-radius: 30px;
+  padding: 10px 18px;
+  font-size: 0.85rem;
+  transition: all 0.3s ease;
+  display: inline-block;
+}
+
+/* BUTTON HOVER */
+.wp-block-button__link:hover {
+  background: #e63946;
+  color: #fff;
+}
+
+/* HEADING */
+.wp-block-heading {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 25px;
+  letter-spacing: 1px;
+}
