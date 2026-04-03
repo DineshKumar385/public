@@ -33,20 +33,12 @@ header,
 .wp-block-group.alignfull:first-child{
     background:#020617;
     border-bottom:1px solid #1e293b;
-<<<<<<< HEAD
-    height: 300px;
-=======
->>>>>>> origin/main
 }
 
 .wp-block-navigation a{
     color:#e5e7eb;
     font-weight:500;
     margin-left:25px;
-<<<<<<< HEAD
-    margin-top: -150px;
-=======
->>>>>>> origin/main
 }
 
 .wp-block-navigation a:hover{
@@ -57,10 +49,6 @@ header,
 .wp-block-site-title a{
     color:#ffffff;
     font-weight:700;
-<<<<<<< HEAD
-    margin-top: -100px;
-=======
->>>>>>> origin/main
 }
 
 /* =========================
@@ -323,6 +311,7 @@ body {
 .alignfull {
     max-width: 100% !important;
     margin: 0 !important;
+<<<<<<< HEAD
 <<<<<<< HEAD
 }
 
@@ -1446,4 +1435,6 @@ h1 {
     .wc-block-product-template {
         grid-template-columns: 1fr; /* 1 column */
     }
+=======
+>>>>>>> origin/main
 }
