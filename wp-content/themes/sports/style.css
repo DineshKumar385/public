@@ -1315,3 +1315,135 @@ ins {
         justify-content: center;
     }
 }
+
+
+
+/* =========================
+   KEEP 3-COLUMN LAYOUT (NO STACKING)
+========================= */
+
+.wc-block-product-template {
+    max-width: 1100px;
+    margin: 60px auto !important;
+    padding: 0 20px;
+
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr); /* FORCE 3 columns */
+    gap: 40px;
+    justify-content: center;
+}
+
+/* =========================
+   PRODUCT CARD (REMOVE HEAVY LOOK)
+========================= */
+
+.wc-block-product {
+    text-align: center;
+    background: transparent !important;
+    padding: 0;
+}
+
+/* =========================
+   IMAGE
+========================= */
+
+.wc-block-components-product-image img {
+    width: 100%;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+
+.wc-block-components-product-image img:hover {
+    transform: scale(1.03);
+}
+
+/* =========================
+   TEXT
+========================= */
+
+.wp-block-post-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 12px 0 5px;
+}
+
+.wp-block-post-title a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.wc-block-components-product-price {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+/* =========================
+   BUTTON FIX (IMPORTANT)
+========================= */
+
+.wc-block-components-product-button__button {
+    background: transparent !important;
+    color: #ffffff !important;
+    border: 1px solid #ccc !important;
+    padding: 9px 18px !important;
+    border-radius: 6px !important;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.2s ease;
+    margin-bottom: 10px !important;
+}
+
+/* hover */
+.wc-block-components-product-button__button:hover {
+    border-color: #000 !important;
+    color: #ffffff !important;
+}
+
+/* REMOVE DISABLED LOOK */
+.wc-block-components-product-button__button:disabled {
+    opacity: 1 !important;
+    background: transparent !important;
+    color: #ffffff !important;
+}
+
+/* =========================
+   SALE BADGE CLEAN
+========================= */
+
+.wc-block-components-product-sale-badge__text {
+    background: white !important;
+    color: #ff0000 !important;
+    border-radius: 20px;
+    padding: 4px 10px;
+    font-size: 11px;
+}
+
+/* =========================
+   CENTER PAGE HEADER
+========================= */
+
+h1 {
+    text-align: center;
+}
+
+.woocommerce-result-count {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+/* =========================
+   RESPONSIVE (CONTROLLED)
+========================= */
+
+@media (max-width: 900px) {
+    .wc-block-product-template {
+        grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    }
+}
+
+@media (max-width: 500px) {
+    .wc-block-product-template {
+        grid-template-columns: 1fr; /* 1 column */
+    }
+}
